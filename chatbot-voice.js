@@ -61,5 +61,5 @@ module.exports = function(RED) {
     });
   }
 
-  RED.nodes.registerType('chatbot-voice', ChatBotVoice);
+  // RED.nodes.registerType('chatbot-voice', ChatBotVoice);
 };

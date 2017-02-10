@@ -257,25 +257,25 @@ module.exports = function(RED) {
 
   }
 
-  RED.nodes.registerType('chatbot-facebook-node', FacebookBotNode, {
-    credentials: {
-      token: {
-        type: 'text'
-      },
-      app_secret: {
-        type: 'text'
-      },
-      verify_token: {
-        type: 'text'
-      },
-      key_pem: {
-        type: 'text'
-      },
-      cert_pem: {
-        type: 'text'
-      }
-    }
-  });
+  // RED.nodes.registerType('chatbot-facebook-node', FacebookBotNode, {
+  //   credentials: {
+  //     token: {
+  //       type: 'text'
+  //     },
+  //     app_secret: {
+  //       type: 'text'
+  //     },
+  //     verify_token: {
+  //       type: 'text'
+  //     },
+  //     key_pem: {
+  //       type: 'text'
+  //     },
+  //     cert_pem: {
+  //       type: 'text'
+  //     }
+  //   }
+  // });
 
   function FacebookInNode(config) {
     RED.nodes.createNode(this, config);
@@ -306,7 +306,7 @@ module.exports = function(RED) {
       node.warn('Missing configuration in Facebook Messenger Receiver');
     }
   }
-  RED.nodes.registerType('chatbot-facebook-receive', FacebookInNode);
+  // RED.nodes.registerType('chatbot-facebook-receive', FacebookInNode);
 
 
   function FacebookOutNode(config) {
@@ -519,6 +519,6 @@ module.exports = function(RED) {
 
     });
   }
-  RED.nodes.registerType('chatbot-facebook-send', FacebookOutNode);
+  // RED.nodes.registerType('chatbot-facebook-send', FacebookOutNode);
 
 };

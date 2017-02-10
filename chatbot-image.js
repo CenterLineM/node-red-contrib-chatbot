@@ -68,5 +68,5 @@ module.exports = function(RED) {
 
   }
 
-  RED.nodes.registerType('chatbot-image', ChatBotImage);
+  // RED.nodes.registerType('chatbot-image', ChatBotImage);
 };

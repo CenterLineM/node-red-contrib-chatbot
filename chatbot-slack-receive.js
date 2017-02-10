@@ -54,13 +54,13 @@ module.exports = function(RED) {
       return true;
     }
   }
-  RED.nodes.registerType('chatbot-slack-node', SlackBotNode, {
-    credentials: {
-      token: {
-        type: 'text'
-      }
-    }
-  });
+  // RED.nodes.registerType('chatbot-slack-node', SlackBotNode, {
+  //   credentials: {
+  //     token: {
+  //       type: 'text'
+  //     }
+  //   }
+  // });
 
   // creates the message details object from the original message
   function getMessageDetails(message, token) {
@@ -202,7 +202,7 @@ module.exports = function(RED) {
       node.warn('Missing configuration in Slack Receiver');
     }
   }
-  RED.nodes.registerType('chatbot-slack-receive', SlackInNode);
+  // RED.nodes.registerType('chatbot-slack-receive', SlackInNode);
 
 
   function SlackOutNode(config) {
@@ -328,6 +328,6 @@ module.exports = function(RED) {
 
     });
   }
-  RED.nodes.registerType('chatbot-slack-send', SlackOutNode);
+  // RED.nodes.registerType('chatbot-slack-send', SlackOutNode);
 
 };

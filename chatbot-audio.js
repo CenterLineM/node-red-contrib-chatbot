@@ -56,5 +56,5 @@ module.exports = function(RED) {
 
   }
 
-  RED.nodes.registerType('chatbot-audio', ChatBotAudio);
+  // RED.nodes.registerType('chatbot-audio', ChatBotAudio);
 };

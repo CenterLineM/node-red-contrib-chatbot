@@ -16,19 +16,15 @@
       "chatbot-context": "chatbot-context.js",
       "chatbot-topic": "chatbot-topic.js",
       "chatbot-apiai": "chatbot-apiai.js",
-      "chatbot-voice": "chatbot-voice.js",
       "chatbot-language": "chatbot-language.js",
       "chatbot-listen": "chatbot-listen.js",
       "chatbot-parse": "chatbot-parse.js",
       "chatbot-command": "chatbot-command.js",
-      "chatbot-image": "chatbot-image.js",
-      "chatbot-audio": "chatbot-audio.js",
       "chatbot-analyze": "chatbot-analyze.js",
       "chatbot-location": "chatbot-location.js",
       "chatbot-ask": "chatbot-ask.js",
       "chatbot-inline-buttons": "chatbot-inline-buttons.js",
       "chatbot-request": "chatbot-request.js",
-      "chatbot-log": "chatbot-log.js",
       "chatbot-qrcode": "chatbot-qr-code.js",
       "chatbot-conversation": "chatbot-conversation.js",
       "chatbot-debug": "chatbot-debug.js",
@@ -36,10 +32,7 @@
       "chatbot-authorized": "chatbot-authorized.js",
       "chatbot-transport": "chatbot-transport.js",
       "chatbot-rivescript": "chatbot-rivescript.js",
-      "chatbot-telegram-receive": "chatbot-telegram-receive.js",
-      "chatbot-slack-receive": "chatbot-slack-receive.js",
-      "chatbot-facebook-receive": "chatbot-facebook-receive.js",
-      "chatbot-smooch-receive": "chatbot-smooch-receive.js"
+      "chatbot-telegram-receive": "chatbot-telegram-receive.js"
     }
   },
   "maintainers": [

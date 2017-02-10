@@ -189,16 +189,16 @@ module.exports = function(RED) {
 
   }
 
-  RED.nodes.registerType('chatbot-smooch-node', SmoochBotNode, {
-    credentials: {
-      keyId: {
-        type: 'text'
-      },
-      secret: {
-        type: 'text'
-      }
-    }
-  });
+  // RED.nodes.registerType('chatbot-smooch-node', SmoochBotNode, {
+  //   credentials: {
+  //     keyId: {
+  //       type: 'text'
+  //     },
+  //     secret: {
+  //       type: 'text'
+  //     }
+  //   }
+  // });
 
   function SmoochInNode(config) {
     RED.nodes.createNode(this, config);
@@ -229,7 +229,7 @@ module.exports = function(RED) {
       node.warn('Missing configuration in Facebook Messenger Receiver');
     }
   }
-  RED.nodes.registerType('chatbot-smooch-receive', SmoochInNode);
+  // RED.nodes.registerType('chatbot-smooch-receive', SmoochInNode);
 
 
   function SmoochOutNode(config) {
@@ -349,6 +349,6 @@ module.exports = function(RED) {
     });
   }
 
-  RED.nodes.registerType('chatbot-smooch-send', SmoochOutNode);
+  // RED.nodes.registerType('chatbot-smooch-send', SmoochOutNode);
 
 };

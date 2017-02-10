@@ -19,6 +19,6 @@ module.exports = function(RED) {
 
     });
   }
-  RED.nodes.registerType('chatbot-log', ChatBotLog);
+  // RED.nodes.registerType('chatbot-log', ChatBotLog);
 
 };
